@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
-function Header() {
+function Section1() {
   const headerTextRef = useRef(null);
-  const numberOfFish = 105;
+  const numberOfFish = 1005;
 
   useEffect(() => {
     const headerTextElement = headerTextRef.current;
     if (headerTextElement) {
-      const duration = 250;
+      const duration = 2050;
       const totalWidth = headerTextElement.offsetWidth;
 
       gsap.to(headerTextElement, {
@@ -44,4 +44,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Section1;

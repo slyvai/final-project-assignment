@@ -6,7 +6,7 @@ import Image2 from "../assets/il_794xN.2317900691_aisr-removebg-preview.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function Home() {
+function Section2() {
   const canvasRef = useRef(null);
   const canvasRef2 = useRef(null);
   const containerRef = useRef(null);
@@ -128,4 +128,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Section2;
